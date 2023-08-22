@@ -1,0 +1,6 @@
+function addLength(str) {
+    const arr = str.split(" ");
+    const resultArr = arr.map(word => `${word} ${word.length}`);
+    return resultArr;
+}
+
